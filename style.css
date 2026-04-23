@@ -12,11 +12,11 @@ body.light-theme {
 
 .title,
 span,
-.Hire-me {
-  color: var(--accent-color);
+.Contact-me-btn {
+  color: var(--text-main);
 }
 
-.Hire-me {
+.Contact-me-btn {
   background: var(--accent-color);
   color: var(--bg-primary);
   /* ليكون النص متناسقاً مع الخلفية */
@@ -65,7 +65,7 @@ nav a {
   font-weight: 600;
 }
 
-nav a:hover {
+nav a:hover  {
   color: var(--accent-color);
 }
 
@@ -98,11 +98,10 @@ nav a:hover {
   margin-bottom: 3rem;
 }
 
-.Hire-me {
+.Contact-me-btn {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   background: var(--accent-color);
-  color:
-    #000000;
+  color: var(--text-main);
   padding: 0.8rem 1.5rem;
   border-radius: 50px;
   font-weight: 600;
@@ -115,7 +114,7 @@ nav a:hover {
   transform: scale(1.05);
 }
 
-.Hire-me:hover {
+.Contact-me-btn:hover {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   transform: scale(1.05);
 }
@@ -191,7 +190,7 @@ ul li img {
   width: 80%;
   margin-bottom: 1rem;
   border-radius: 2rem;
-  background: var(--bg-secondary);
+  background: var(--bg-primary);
 }
 
 .container .img:hover img {
@@ -239,8 +238,8 @@ ul li img {
   border: 2px solid var(--bg-secondary);
   
   transition: 0.3s ease;
-  padding: 0.8rem;
-  width: 100px;
+  padding: 0.8rem 1.5rem;
+  width: 150px;
   list-style-type: none;
   background: var(--bg-secondary);
   border-radius: 0.6rem;
@@ -257,8 +256,12 @@ span {
 }
 
 .My-Skills li:hover {
+  color: var(--accent-color);
+  box-shadow: 1px 2
+  1px 9px rgba(0, 0,0,0.3);
   border-color: var(--accent-color);
-  transform: translateY(-3px);
+  transform: translateY(-5px);
+  transform: scale(1.1);
 }
 
 .Contact h6 {
@@ -384,7 +387,6 @@ body {
 html,
 body {
   max-width: 100%;
-  overflow-x: hidden;
 }
 
 :root {
@@ -392,10 +394,28 @@ body {
   --bg-primary: #FFFFFF;
   --bg-secondary: #F3F4F6;
   --accent-color: #86B5FF;
-  /* اللون اللي في صورتك */
   --text-main: #223B63;
   --text-muted: #6B7280;
 }
+@media (max-width: 700px) {
+  header {
+    opacity: 0.7;
+    border-radius: 5rem;
+    background: var(--bg-secondary);
+    padding: 15px 20px;
+    position: sticky;
+    top: 10px;
+    z-index: 1000; 
+    
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  }
+
+  header li, header button {
+    margin: 0 0.5rem;
+    font-weight: bold;
+  }
+}
+
 
 @media (min-width: 700px) {
   
@@ -466,16 +486,6 @@ body {
     width: 100%;
   }
   
-  /* Skills - أعرض وأكبر */
-  .My-Skills ul {
-    justify-content: center;
-    margin-left: 0;
-    padding: 0 4rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
-  
   .My-Skills li {
     width: 140px;
     font-size: 1rem;
@@ -502,6 +512,7 @@ body {
   }
   
   .My-Skills ul {
+    margin-top: 2rem;
     justify-content: center;
     margin-left: 0;
     padding: 0 4rem;
@@ -510,4 +521,7 @@ body {
     gap: 1rem;
   }
 }
-
+.My-Works{
+  background: var(--bg-secondary);
+  padding: 2rem;
+}
