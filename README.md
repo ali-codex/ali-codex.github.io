@@ -40,13 +40,16 @@ The system is built using an industry-standard tech stack to ensure speed and ac
 ├── script.js        # Core Logic & Interaction Engine
 └── assets/          # Compressed Media & Icons
 ```
+
 5. Deployment & Usage | التشغيل والتنفيذ
 ​The project is statically deployed. To run locally:
 ​Clone the repository.
 ​Launch index.html via a local server or browser.
 ​Configure :root variables in style.css for brand customization.
+
 ​6. Professional Contact | التواصل المهني
 ​Official Email: codexali3@gmail.com
 ​GitHub Ecosystem: ali-codex
 ​Availability: Open for technical collaborations and software development projects.
+
 ​© 2026 ALI. All rights reserved. Built for Performance.
