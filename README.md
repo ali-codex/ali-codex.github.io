@@ -1,45 +1,51 @@
-# ◉ ALI PORTFOLIO 2026 | علي - معرض الأعمال
-[ English Version Below | النسخة العربية بالأسفل ]
-## 🚀 النسخة العربية (Arabic Version)
-### "نبتكر حلولاً ذكية، برمجية وفعّالة"
-موقع شخصي (Portfolio) متكامل يعرض مهاراتي كمطور بايثون وواجهات أمامية. يتميز الموقع بتصميم عصري يركز على تجربة المستخدم (UX) وسرعة الأداء العالية، مع دعم كامل للغتين العربية والإنجليزية.
-### 🌟 المميزات التقنية
- * دعم اللغات: نظام ثنائي اللغة (عربي/إنجليزي) مع تبديل سلس.
- * التصميم: متوافق تماماً مع جميع الأجهزة (Mobile, Tablet, Desktop).
- * التفاعل: مؤشر ماوس مخصص، تأثيرات Spotlight، وأنميشن عند التمرير.
- * البنية: عرض الخبرات بنظام Bento Grid العصري.
- * الكود: بنية نظيفة تعتمد على Vanilla JS و CSS Variables.
-### 🛠 التقنيات المستخدمة
- * الواجهات الأمامية: HTML5, CSS3, JavaScript.
- * التصميم والأنميشن: CSS Grid/Flexbox, Keyframes.
- * اللغات البرمجية: Python (تركيز على الأتمتة والمنطق البرمجي).
- * الخطوط: Tajawal (للعربية) و Space Grotesk (للإنجليزية).
-### 📂 هيكلية المشروع
- * index.html: الصفحة الرئيسية باللغة العربية.
- * en.html: النسخة الإنجليزية من الموقع.
- * style.css: ملف التنسيق الموحد لكلا اللغتين.
- * script.js: ملف التحكم بالتفاعلات والأنميشن.
-## 🚀 English Version (النسخة الإنجليزية)
-### "Crafting smart, code-driven, and efficient solutions"
-A professional portfolio showcasing my skills as a Python Developer and Front-end Enthusiast. This project focuses on high performance, modern UX/UI, and full multilingual support.
-### 🌟 Key Features
- * Dual Language: Built-in RTL/LTR support (Arabic/English).
- * Fully Responsive: Optimized for all screen sizes and devices.
- * Interactive UI: Custom cursor, spotlight effects, and scroll-reveal animations.
- * Bento Layout: Organized experience and skill showcase using a grid-based design.
- * Performance: Light, fast, and dependency-free (Vanilla Tech).
-### 🛠 Tech Stack
- * Frontend: HTML5, CSS3, JavaScript (Vanilla).
- * Styling: CSS Variables, Modern Flexbox & Grid.
- * Programming: Python (Automation & Logic).
- * Typography: Space Grotesk & Tajawal Fonts.
-## ⚙️ كيف يعمل المشروع؟ (How it works)
- 1. قم بتحميل الملفات إلى جهازك.
- 2. افتح ملف index.html في أي متصفح لمشاهدة النسخة العربية.
- 3. للتعديل على الألوان، افتح style.css وعدل القيم الموجودة تحت وسوم :root.
-## 📧 تواصل معي (Contact Me)
- * Email: codexali3@gmail.com
- * GitHub: ali-codex
- * Status: Available for coding projects & collaborations.
-**Developed with ⚡ by ALI — 2026**
-**تم التطوير بواسطة علي — 2026**
+# Portfolio Framework 2026 | Multi-Language Web Architecture
+### Modern Engineering & UI Design by Ali
+
+![Project Preview](assets/preview.webp)
+*System Interface Overview: Arabic (RTL) & English (LTR) Unified Framework*
+
+---
+
+## 1. Project Overview | نظرة عامة على المشروع
+This is a high-performance personal portfolio designed with a focus on clean code, scalability, and optimal User Experience (UX). The project demonstrates advanced implementation of frontend technologies integrated with a logical backend mindset.
+
+هذا المشروع عبارة عن بيئة عرض أعمال متطورة، تم بناؤها مع التركيز على جودة الكود، الأداء العالي، وتجربة المستخدم. يعكس المشروع التمكن من تقنيات الواجهات الأمامية مع تطبيق منطق برمجى متزن.
+
+---
+
+## 2. Technical Architecture | البنية التقنية
+The system is built using an industry-standard tech stack to ensure speed and accessibility:
+
+### Core Technologies:
+* **Engine:** Vanilla JavaScript (ES6+) for high-speed interaction.
+* **Styling:** Modular CSS3 using Custom Properties (Variables) for dynamic theming.
+* **Logic:** Python-driven workflows for automation and data handling.
+* **Typography:** Professional fonts (Tajawal & Space Grotesk) optimized for readability.
+
+---
+
+## 3. Key Specifications | المواصفات الرئيسية
+* **Global Access:** Full native support for RTL (Arabic) and LTR (English) layouts.
+* **Responsive Engine:** Fluid grid systems ensuring 100% compatibility across all device tiers.
+* **Interactive UI:** Professional micro-interactions including custom cursors and spotlight shaders.
+* **Code Quality:** Clean, commented, and optimized for SEO and performance metrics.
+
+---
+
+## 4. Directory Structure | هيكلية الملفات
+```text
+├── index.html       # Primary Interface (Arabic)
+├── en.html          # Secondary Interface (English)
+├── style.css        # Unified Global Stylesheet
+├── script.js        # Core Logic & Interaction Engine
+└── assets/          # Compressed Media & Icons
+5. Deployment & Usage | التشغيل والتنفيذ
+​The project is statically deployed. To run locally:
+​Clone the repository.
+​Launch index.html via a local server or browser.
+​Configure :root variables in style.css for brand customization.
+​6. Professional Contact | التواصل المهني
+​Official Email: codexali3@gmail.com
+​GitHub Ecosystem: ali-codex
+​Availability: Open for technical collaborations and software development projects.
+​© 2026 ALI. All rights reserved. Built for Performance.
